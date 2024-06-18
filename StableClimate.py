@@ -11,7 +11,6 @@ calibration_params = bme280.load_calibration_params(bus, BME280_I2C_ADDRESS)
 
 def read_bme280_data():
 
-    """Read temperature, humidity, and pressure data from BME280 sensor."""
 
     data = bme280.sample(bus, BME280_I2C_ADDRESS, calibration_params)
     temperature = data.temperature
