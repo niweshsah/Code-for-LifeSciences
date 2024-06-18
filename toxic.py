@@ -27,5 +27,4 @@ try:
 except KeyboardInterrupt:
     pass
 
-finally:
-    print("Cleaning up...")
+
